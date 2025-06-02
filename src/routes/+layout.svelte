@@ -1,7 +1,9 @@
 <script lang="ts">
-	import '../app.css';
+  import "../app.css";
+  import { Toaster } from "$lib/components/ui/sonner/index.js";
 
-	let { children } = $props();
+  let { children } = $props();
 </script>
 
+<Toaster richColors closeButton />
 {@render children()}

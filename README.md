@@ -1,38 +1,17 @@
-# sv
+## Svelte Image Uploader
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+[shadcn-svelte](https://next.shadcn-svelte.com/) is an amazing ui library but doesn't have an image uploader component. So I created one!
 
-## Creating a project
+It has image validation built in and customizable styles with [tailwindcss](https://tailwindcss.com/)
 
-If you're seeing this, you've probably already done this step. Congrats!
+The image is validated inside a shadcn Form using [zod](https://zod.dev), [svelte-drop-zone](https://github.com/thecodejack/svelte-file-dropzone#readme), [superforms](https://superforms.rocks), and [formsnap](https://formsnap.dev/docs).
 
-```bash
-# create a new project in the current directory
-npx sv create
+### Demo
 
-# create a new project in my-app
-npx sv create my-app
-```
+https://svelte-image-uploader.vercel.app/
 
-## Developing
+### React version
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+There's also a react version you can check out here:
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+https://simple-image-uploader-bice.vercel.app/
